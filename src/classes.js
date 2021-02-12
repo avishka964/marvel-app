@@ -6,6 +6,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
+    paddingLeft: 50,
     display: "none",
     [theme.breakpoints.up("sm")]: {
       display: "block",
